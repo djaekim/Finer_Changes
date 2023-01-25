@@ -8,9 +8,11 @@ public class example {
 		else {
 			System.out.println("else statement");
 		}
+		extracted_method();
+	}
+	public static void extracted_method() {
 		try {
 			System.out.println("hello");
-			System.out.println("new statement");
 		}catch(Exception e ) {
 			
 		}
